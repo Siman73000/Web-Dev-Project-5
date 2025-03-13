@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery Carousel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="carousel-container">
+    <button class="carousel-button prev" id="prev">←</button>
+    <div class="image-preview left" id="prev-image">
+      <img class="carousel-image" src="https://picsum.photos/200?random=1" alt="Previous Image">
+    </div>
+    <img class="carousel-image main" id="carousel-image" src="https://picsum.photos/200?random=2" alt="Main Image">
+    <div class="image-preview right" id="next-image">
+      <img class="carousel-image" src="https://picsum.photos/200?random=3" alt="Next Image">
+    </div>
+    <button class="carousel-button next" id="next">→</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
